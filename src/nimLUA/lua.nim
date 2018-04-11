@@ -7,8 +7,8 @@
 const
   LUA_VERSION_MAJOR* = "5"
   LUA_VERSION_MINOR* = "3"
-  LUA_VERSION_NUM* = 531
-  LUA_VERSION_RELEASE* = "1"
+  LUA_VERSION_NUM* = 534
+  LUA_VERSION_RELEASE* = "4"
   LUA_VERSION* = "Lua " & LUA_VERSION_MAJOR & "." & LUA_VERSION_MINOR
   #LUA_RELEASE = LUA_VERSION & "." & LUA_VERSION_RELEASE
   #LUA_COPYRIGHT = LUA_RELEASE & " Copyright (C) 1994-2012 Lua.org, PUC-Rio"
@@ -716,5 +716,3 @@ when isMainModule:
 
   echo "Closing Lua state"
   #L.close
-
-
